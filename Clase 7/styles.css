@@ -246,10 +246,10 @@ hr{
 
 /* Media Queries */
 
-@media screen  and (min-width: 780px) and (max-width: 1024px) {
+@media screen  and (min-width: 780px) and (max-width: 1360px){
   .sub-principal-uno .contenedor2{top:9.132420091324201vh;left:6.617647058823529vw; }
   .abrir-menu{
-    transform: translate(-800px);
+    transform: translate(-1500px);
   }
 }
 
