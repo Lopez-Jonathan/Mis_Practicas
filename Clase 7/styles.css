@@ -181,7 +181,7 @@ hr{
   transition:all .5s ease-in-out;
 }
 
-.sub-principal-uno div.imagen:hover{
+.sub-principal-uno div .imagen:hover{
   transition:all .5s ease-in-out;
   filter: blur(5px);
 }
