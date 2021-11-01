@@ -1,7 +1,8 @@
-alert("¿Esta dispuesto a ver el mejor sitio de recetas?");
 const btnSwitch=document.querySelector("#switch");
 const btnAbrir=document.querySelector("#abrir-menu");
 const btnInformacion=document.querySelector("#boton-footer")
+
+alert("¿Esta dispuesto a ver el mejor sitio de recetas?");
 
 btnSwitch.addEventListener('click' , () =>{
     document.body.classList.toggle('dark');
