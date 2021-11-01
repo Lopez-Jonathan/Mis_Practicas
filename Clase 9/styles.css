@@ -39,7 +39,7 @@ ul{
   align-items: center;
   height: 4.769475357710652vh;
   padding: 3.0441400304414vh 0;
-  margin-bottom: 11.128775834658187vh
+  margin-bottom: 11.128775834658187vh;
 }
 
 .logo {
@@ -70,11 +70,6 @@ ul{
 }
 
 .abrir-menu{
-  position: absolute;
-  cursor: pointer;
-  top:3.97456279809221vh;
-  right: 2.9411764705882355vw;
-  z-index: 2;
   font-size: 1rem;
 }
 
@@ -281,6 +276,24 @@ body.dark .card-boton:hover{
   margin: 0 1.838235294117647vw;
   font-size: 1.838235294117647vw;
 }
+.links {
+  display: flex;
+  align-items:center;
+}
+
+.boton-footer{
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 1.5220700152207vh 1.4705882352941178vw;
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 5vh;
+  margin:1.5220700152207vh 0 0 0;
+  background-color: #eed09d;
+}
 
 @media (max-width: 575px) {
   .nav ul.nav-links-center{
@@ -309,11 +322,17 @@ body.dark .card-boton:hover{
   .nav ul.nav-derecha{
     margin-right: 2.9411764705882355vw;
   }
-  .abrir-menu{
-    position: absolute;
-    cursor: pointer;
-    top:4.901960784313726vh;
-    right: 2vw;
+  .switch{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  body.dark .nav ul.nav-links-center{
+    background-color: #bdbdbd;
+  }
+  body.dark .nav ul.nav-links-center li{
+    padding: 3.0441400304414vh;
+    border-bottom: #000000 solid 1px;
+    font-size: 0.875rem;
   }
   .principal{
     border-radius: 10vh;
@@ -364,6 +383,10 @@ body.dark .card-boton:hover{
   .nav ul.nav-derecha{
     margin-right: 2.9411764705882355vw;
   }
+  .switch{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
   .principal{
     border-radius: 10vh;
   }
@@ -411,6 +434,10 @@ body.dark .card-boton:hover{
   }
   .nav ul.nav-derecha{
     margin-right: 2.9411764705882355vw;
+  }
+  .switch{
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .logo{
     width: 7.352941176470588vw;
