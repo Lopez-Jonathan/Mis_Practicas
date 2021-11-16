@@ -4,3 +4,5 @@ Fecha de Entrega del Proyecto:
 Avances:
 
 .Creacion del archivo html y css (15/11/2021)
+.Creacion del Logo (16/11/2021)
+.Confeccion y terminado del navegador (16/11/2021)

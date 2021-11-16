@@ -1,0 +1,131 @@
+*{  /*Seteando la ventana*/
+  box-sizing:border-box; /*Mantiene contenido, relleno y borde*/
+  margin:0; /*Margenes en 0*/
+  padding: 0; /*Relleno 0*/
+}
+
+a{
+  display: inline-block; /*Renderizacion en linea y en bloque*/
+  text-decoration: none; /*Decoracion nula*/
+  color: inherit; /*Color heredado*/
+  position: relative; /*Posicion relativa*/
+}
+
+div{
+  display: block;
+}
+
+body{  /*Cuerpo*/
+  width: 100%; /*Ancho total de la ventana*/
+  height: 100%; /*Alto total de la ventana*/
+  overflow-x: hidden; /*Regulacion de visualizacion de contenido*/
+  background-color: #0a192f; /*Color de fondo*/
+  color: #8892b0; /*Color de contenido o fuente*/
+  line-height: 1.3; /*Distancia entre lineas de texto*/
+}
+
+.contenedor{
+  height: 100vh; /*Altura total de la ventana*/
+  display: grid; /*Cuadricula*/
+  grid-template-rows: 1fr auto; /*Una sola columna*/
+  grid-template-columns: 100%; /*La columna ocupa el alto de la ventana*/
+}
+
+.flex{
+  display: flex; /*Alineamiento*/
+  flex-direction: column; /*Direccion del alineamiento en columna*/
+  height: 100vh; /*Altura total de la ventana*/
+}
+
+.encabezado{
+  display: flex; /*Alineamiento*/
+  justify-content: space-between; /*Ocupar todo espacio disponible*/
+  align-items: center; /*Alinear elementos al centro*/
+  position: fixed; /*Posicion fija*/
+  top: 0px; /*Arriba del todo*/
+  z-index: 11; /*Apilamiento prioridad 11*/
+  padding: 0px 50px; /*Relleno 0px arriba-abajo 50px derecha-izquierda*/
+  width: 100%; /*Anchura total*/
+  height: 100px; /*Altura total*/
+}
+
+.navbar{
+  display: flex; /*Alineamiento*/
+  justify-content: space-between; /*Ocupar todo espacio disponible*/
+  align-items: center; /*Alinear elementos al centro*/
+  position: relative; /*Posicion relativa*/
+  width: 100%; /*Ancho total*/
+  color: #ccd6f6; /*Color de contenido o fuente*/
+  font-family: monospace; /*Tipo de tipografia*/
+  z-index: 12; /*Apilamiento prioridad 12*/
+}
+
+.navbar .logo{
+  display: flex; /*Alineamiento*/
+  justify-content: center; /*Centar los elementos*/
+  align-items: center; /*Alinear elementos al centro*/
+}
+
+.navbar .logo a{
+  width: 50px; /*Anchura*/
+  height: 50px; /*Altura*/
+}
+
+.navbar .logo a img{
+  width: 100%; /*Anchura total de la caja*/
+  height: 100%; /*Altura total de la caja*/
+}
+
+.links{
+  display: flex; /*Alineamiento*/
+  align-items: center; /*Alinear los elementos al centro*/
+}
+
+.links ol{
+  display: flex; /*Alineamiento*/
+  justify-content: space-between; /*Ocupar todo el espacio posible*/
+  align-items: center; /*Alinear elementos al centro*/
+  padding: 0px; /*Relleno*/
+  margin: 0px; /*Margen*/
+  list-style: none;/*Estilo de lista nulo*/
+}
+
+.links ol li{
+  margin: 0px 5px; /*Margenes arria-abajo 0px derecha-izquierda 5px*/
+  position: relative; /*Posicion relativa*/
+  font-size: 13px; /*Tamaño de fuente*/
+  counter-increment: item 1; /*Incrementar contador +1*/
+}
+
+.links ol li a::before{
+  content: "0" counter(item) "."; /*Colocar "0" y el contador ++1*/
+  margin-right: 5px; /*Margen derecho*/
+  font-size: 12px; /*Tamañod de fuente*/
+  color: #64FFDA; /*Color de contenido o fuente*/
+}
+
+.links ol li a{
+  padding: 10px; /*Relleno*/
+}
+
+.links ol li a:hover{
+  Color: #64FFDA;
+}
+
+.navbar .boton{
+  color: #64FFDA; /*Color de contenido o fuente*/
+  background-color: transparent; /*Color de fondo transparente*/
+  border: 1px solid #64FFDA; /*Borde*/
+  border-radius: 4px; /*Bordes redondos*/
+  padding: 0.75rem 1rem; /*Relleno arriba-abajo 0.75rem derecha-izquierda 1rem*/
+  font-family: monospace; /*Tipo de tipografia*/
+  line-height: 1; /*Distancia entre lineas de texto*/
+  text-decoration: none; /*Decoracion nula*/
+  cursor: pointer; /*Cursor apuntando*/
+  margin-left: 15px; /*Margen izquierdo*/
+  font-size: 13px; /*Tamaño de fuente*/
+}
+
+.navbar .boton:hover{
+  background-color: rgba(100,255,218,0.1); /*Pigmentacion verdosa*/
+}
