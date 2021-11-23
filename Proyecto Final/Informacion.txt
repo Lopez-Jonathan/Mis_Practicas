@@ -6,3 +6,10 @@ Avances:
 .Creacion del archivo html y css (15/11/2021)
 .Creacion del Logo (16/11/2021)
 .Confeccion y terminado del navegador (16/11/2021)
+.Confeccion y terminado de las secciones (17/11/2021 hasta 23/11/2021)
+.Colocacion de redes sociales con sus logos y complementando todo
+enlace "a" (23/11/2021)
+
+Tareas faltantes:(Calculo que para el sabado terminare con esto)
+.Agregar responsive
+.Animaciones de transicion para evitar el cambio tan brusco de los hover.
