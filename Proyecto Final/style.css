@@ -830,7 +830,7 @@ main{
   }
 }
 
-@media screen and (max-with:823px) and (orientation: landscape){
+@media screen and (max-with:960px) and (orientation: landscape){
   .menu{
     display: flex;
     justify-content: center;
