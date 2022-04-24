@@ -7,7 +7,6 @@ $contraseña = "123";
 
 if ($usuario == $user && $contraseña == $pass) {
   header("location:https://www.youtube.com/");
-  echo "href=https://www.youtube.com/"
 }else {
   header("location:https://www.elcato.org/");
 }
