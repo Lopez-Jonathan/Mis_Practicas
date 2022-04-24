@@ -1,0 +1,125 @@
+body{
+  background-image:url("Imagenes/Filete Stroganoff4.jpg"); /*Colocamos como fonde la imagen Filete Stroganoff*/
+  background-repeat: no-repeat; /*La imagen no se repetira*/
+  background-size:cover; /*Cubrira la totalidad de la pagina*/
+  background-position:center center; /*La imagen esta centrada*/
+  background-attachment: fixed; /*La imagen esta fija en el espacio ignorando los scrolls del mouse*/
+}
+
+.TituloPrincipal{
+  text-align:center; /*Centrado*/
+  font-size:300%; /*Tamaño de Fuente*/
+  font-family:Edwardian Script ITC; /*Tipografia*/
+  background-color:white; /*Color de fondo*/
+  text-decoration:underline; /*Sub-rayado*/
+}
+
+.SubTitulo{
+  text-align:center; /*Centrado*/
+  font-family:French Script MT; /*Tipografia*/
+  font-size:250%; /*Tamaño de Fuente*/
+  text-decoration:underline; /*Sub-rayado*/
+}
+
+.SubTitulo2{
+  text-align:center; /*Centrado*/
+  font-family:French Script MT; /*Tipografia*/
+  font-size:200%; /*Tamaño de Fuente*/
+}
+
+.Parrafo{
+  text-align:center; /*Centrado*/
+  color:yellow; /*Color de Letra*/
+}
+
+.SubTitulo3{
+  text-align:center; /*Centrado*/
+  font-family:French Script MT; /*Tipografia*/
+  font-size:200%; /*Tamaño de Fuente*/
+}
+
+.Parrafo2{
+  text-align:center; /*Centrado*/
+  color:yellow; /*Color de Letra*/
+}
+
+.SubTitulo4{
+  text-align:center; /*Centrado*/
+  font-family:French Script MT; /*Tipografia*/
+  font-size:250%; /*Tamaño de Fuente*/
+  text-decoration:underline; /*Sub-rayado*/
+}
+
+.Ingredientes{
+  color:yellow /*Color de Letra*/
+}
+
+.SubTitulo5{
+  text-align:center; /*Centrado*/
+  font-size:250%; /*Tamaño de Fuente*/
+  font-family:French Script MT; /*Tipografia*/
+  text-decoration:underline; /*Sub-rayado*/
+}
+
+.Instrucciones{
+  color:yellow; /*Color de Letra*/
+}
+
+.SubTitulo6{
+  font-size:200%; /*Tamaño de Fuente*/
+  font-family:French Script MT; /*Tipografia*/
+  text-decoration:underline; /*Sub-Rayado*/
+  float: left; /*Desplazamiento del elemento hacia la izquierda*/
+}
+
+.SubTitulo7{
+  font-size:200%; /*Tamaño de Fuente*/
+  font-family:French Script MT; /*Tipografia*/
+  text-decoration:underline; /*Sub-Rayado*/
+  float: right; /*Desplzamiento del elemento hacia la derecha*/
+}
+
+.Imagen{
+  float: left; /*Desplazamiento del elemento hacia la izquierda*/
+  width: 657px; /*Ancho de la imagen*/
+  height: 406px; /*Alto de la imagen*/
+}
+
+.Video{
+  float: right; /*Desplazamiento del elemento hacia la derecha*/
+  width: 657px; /*Ancho del video*/
+  height: 406px; /*Alto del video*/
+}
+
+.Clear{
+  clear: both; /*Salto de Linea de caja*/
+  width: 0px; /*Ancho de la caja*/
+  height: 0px; /*Alto de la caja*/
+}
+
+.SubTitulo8{
+  text-align:center; /*Centrado*/
+  font-size:250%; /*Tamaño de la Fuente*/
+  font-family:French Script MT; /*Tipografia*/
+  text-decoration:underline; /*Sub-rayado*/
+}
+
+.Mapa{
+  width: 757px; /*Ancho del mapa*/
+  height: 506px; /*Alto del mapa*/
+  display: block; /*Trata al mapa como un bloque*/
+  margin:auto; /*Suministra margenes iguales para el centrado del mapa*/
+}
+
+.SubTitulo9{
+  text-align:center; /*Centrado*/
+  font-size:250%; /*Tamaño de Fuente*/
+  font-family:French Script MT; /*Tipografia*/
+  text-decoration:underline; /*Sub-Rayado*/
+}
+
+.Audio{
+  width: 757px; /*Ancho del reproductor*/
+  display: block; /*Trata al reproductor como un bloque*/
+  margin:auto; /*Suministra margenes iguales para centrar el reproductor*/
+}

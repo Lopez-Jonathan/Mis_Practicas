@@ -1,0 +1,202 @@
+body{
+  background-image:url("Imagenes/Filete Stroganoff4.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center center;
+  background-attachment: fixed;
+}
+
+header{
+  text-align: center;
+  margin-bottom: 20px;
+  width: 1326px;
+  height: 200px;
+}
+
+.TituloPrincipal{
+  text-align:center;
+  font-size:300%;
+  font-family:Edwardian Script ITC;
+  background-color:white;
+  text-decoration:underline;
+  color:gold;
+}
+
+nav{
+  background-color: black;
+  width: 1326px;
+  height: 35px;
+}
+
+a:link{
+  color: gold;
+}
+
+.Enlace1{
+  font-family: Old English Text MT;
+  font-size: 150%;
+  margin-right: 85px;
+}
+
+.Enlace1:visited{
+  color:#71d90b;
+}
+
+.Enlace1:hover{
+  font-family: cursive;
+  color:white;
+}
+
+.Enlace2{
+  font-family: Old English Text MT;
+  font-size: 150%;
+  margin-right: 85px;
+}
+
+.Enlace2:visited{
+  color: red;
+}
+
+.Enlace2:hover{
+  font-family: fantasy;
+  color: #BB8FCE;
+}
+
+.Enlace3{
+  font-family: Old English Text MT;
+  font-size: 150%;
+  margin-right: 85px;
+}
+
+.Enlace3:visited{
+  color:yellow;
+}
+
+.Enlace3:hover{
+  font-family: monospace;
+  color:#5DADE2;
+}
+
+.Enlace4{
+  font-family: Old English Text MT;
+  font-size: 150%;
+}
+
+.Enlace4:visited{
+  color: pink;
+}
+
+.Enlace4:hover{
+  font-family: sans-serif;
+  color:#F5B041;
+}
+
+.Formulario{
+  text-align: center;
+}
+
+.Clear{
+  clear: both;
+  margin-bottom: 4px;
+}
+
+.AntesyDespues::before{
+  content: "";
+  display:inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: orange;
+  margin-right: 400px;
+}
+
+.AntesyDespues::after{
+  content: "";
+  display:inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: orange;
+  margin-left: 400px;
+}
+
+footer{
+  clear: both;
+  background-color: orange;
+  text-align: center;
+  height: 200px;
+  opacity: 0.75;
+}
+
+.SubTitulo9{
+  text-align:center;
+  font-size:250%;
+  font-family:French Script MT;
+  text-decoration:underline;
+}
+
+.SubTitulo10{
+  font-size:200%;
+  font-family:French Script MT;
+  text-decoration:underline;
+}
+
+.Correccion{
+  font-size: 60%;
+  font-family: calibri;
+}
+
+.Correccion:hover{
+  font-size: 100%;
+}
+
+.Mail{
+  float: left;
+  margin-right: 90px;
+  margin-left: 200px;
+}
+
+.Instagram{
+  float: left;
+  margin-right: 150px;
+  padding-bottom: 28px;
+}
+
+.Imagen4{
+  width: 60px;
+  height: 60px;
+}
+
+.Imagen4:hover{
+  width: 80px;
+  height: 80px;
+}
+
+.Facebook{
+  float: left;
+  margin-right: 150px;
+}
+
+.Imagen5{
+  width: 60px;
+  height: 60px;
+}
+
+.Imagen5:hover{
+  width: 80px;
+  height: 80px;
+}
+
+.Whatsapp{
+  float: left;
+}
+
+.Imagen6{
+  width: 60px;
+  height: 60px;
+}
+
+.Imagen6:hover{
+  width: 80px;
+  height: 80px;
+}
