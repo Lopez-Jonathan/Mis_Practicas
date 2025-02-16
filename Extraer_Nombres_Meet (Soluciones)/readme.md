@@ -2,6 +2,7 @@ InsightOrbit - Monitoreo de Participación en WarRooms (Google Meet)
 Este repositorio contiene diversas soluciones desarrolladas para el equipo de NOC de MELI, con el objetivo de obtener los nombres de los colaboradores más activos en WarRooms (Google Meet). Esta información es utilizada para completar automáticamente los canales de Slack creados por cada incidente.
 
 🚀 Soluciones Implementadas
+
 🔹 Solución 1: Logeo Automático con Selenium
 Esta solución consistía en loguear un usuario extra en la reunión, que interactuaba con la lista de participantes para extraer los nombres.
 
