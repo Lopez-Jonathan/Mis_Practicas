@@ -48,17 +48,25 @@ Dependía del tono, cadencia y volumen de voz para que la biblioteca spaCy pudie
 🔴 Estado: Descartado (aunque el código fue completado).
 
 ✅ Solución Final: InsightOrbit (Extensión de Google Chrome)
+
 Después de evaluar las soluciones anteriores, desarrollé una extensión de Google Chrome que interactúa directamente con el DOM de Google Meet, permitiendo:
 
 🎯 Características Principales:
+
 ✔️ Obtención automática de nombres, separando los más activos en función de su tiempo de habla (alta precisión).
+
 ✔️ Bajo consumo de recursos: Utiliza observadores compartidos para detectar cambios de estilo en los micrófonos digitales de cada usuario.
+
 ✔️ Envío automático a Slack: Extrae datos del incidente desde el JSON de la ticketera y los envía a Slack mediante WebHook.
+
 ✔️ Fácil portabilidad: Al ser una extensión de Chrome, puede ejecutarse desde cualquier dispositivo sin instalación compleja.
+
 ✔️ Interfaz intuitiva: Permite filtrar nombres y visualizar un cronómetro adjunto a cada participante, indicando su tiempo de habla.
 
 ⚠️ Único Inconveniente:
+
 El monitoreo del micrófono digital para detectar el tiempo de habla no funciona en segundo plano. El operador debe mantener la reunión de Google Meet visible en la pantalla.
+
 🔵 Estado: Implementado con éxito. 🎉
 
 📌 Conclusión
