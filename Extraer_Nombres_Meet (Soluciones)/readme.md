@@ -5,6 +5,7 @@ Este repositorio contiene diversas soluciones desarrolladas para el equipo de NO
 🚀 Soluciones Implementadas
 
 🔹 Solución 1: Logeo Automático con Selenium
+
 Esta solución consistía en loguear un usuario extra en la reunión, que interactuaba con la lista de participantes para extraer los nombres.
 
 ❌ Inconvenientes:
