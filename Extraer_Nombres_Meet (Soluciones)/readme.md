@@ -30,11 +30,16 @@ Almacenamiento de videos en Google Drive: No era legal almacenarlos localmente, 
 En esta alternativa, el Operador/Administrador de la WarRoom debía dictar manualmente los nombres de los participantes más activos mientras realizaba su trabajo.
 
 ❌ Inconvenientes:
+
 Subjetividad: La precisión dependía del criterio del operador.
+
 Posibles errores: Si el operador se distraía, podía omitir nombres importantes o agregar nombres irrelevantes.
+
 Requería ejecución programada mediante el Programador de Tareas de Windows en horario laboral.
+
 Dependía del tono, cadencia y volumen de voz para que la biblioteca spaCy pudiera extraer correctamente los nombres (baja precisión).
-🔴 Estado: Descartado.
+
+🔴 Estado: Descartado (aunque el código fue completado).
 
 ✅ Solución Final: InsightOrbit (Extensión de Google Chrome)
 Después de evaluar las soluciones anteriores, desarrollé una extensión de Google Chrome que interactúa directamente con el DOM de Google Meet, permitiendo:
