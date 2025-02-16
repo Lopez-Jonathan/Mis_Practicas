@@ -19,6 +19,7 @@ La necesidad de loguear un usuario adicional en la reunión se consideró insegu
 🔴 Estado: Descartado (aunque el código fue completado).
 
 🔹 Solución 2: Extracción de Texto desde Google Meet (OCR)
+
 Esta solución procesaba el video de la videollamada, eliminaba los FPS irrelevantes y aplicaba OCR para extraer los nombres.
 
 ❌ Inconvenientes:
