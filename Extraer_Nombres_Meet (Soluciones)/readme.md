@@ -7,9 +7,13 @@ Este repositorio contiene diversas soluciones desarrolladas para el equipo de NO
 Esta solución consistía en loguear un usuario extra en la reunión, que interactuaba con la lista de participantes para extraer los nombres.
 
 ❌ Inconvenientes:
+
 Requiere ejecución programada mediante el Programador de Tareas de Windows en horario laboral.
+
 No discrimina entre participantes más y menos activos.
+
 Alto consumo de recursos.
+
 La necesidad de loguear un usuario adicional en la reunión se consideró insegura e invasiva.
 🔴 Estado: Descartado (aunque el código fue completado).
 
