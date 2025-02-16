@@ -15,15 +15,20 @@ No discrimina entre participantes más y menos activos.
 Alto consumo de recursos.
 
 La necesidad de loguear un usuario adicional en la reunión se consideró insegura e invasiva.
+
 🔴 Estado: Descartado (aunque el código fue completado).
 
 🔹 Solución 2: Extracción de Texto desde Google Meet (OCR)
 Esta solución procesaba el video de la videollamada, eliminaba los FPS irrelevantes y aplicaba OCR para extraer los nombres.
 
 ❌ Inconvenientes:
+
 Solo procesaba los videos de forma local.
+
 Distinguía la participación basándose en la frecuencia con la que aparecían los nombres en los FPS (baja precisión).
+
 Almacenamiento de videos en Google Drive: No era legal almacenarlos localmente, por lo que la solución fue descartada rápidamente.
+
 🔴 Estado: Descartado (aunque el código fue completado).
 
 🔹 Solución 3: Dictado por Voz
